@@ -45,3 +45,23 @@ build-mode = "apk"
 pkg-name = "com.duolingo"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.duolingo"
+
+[DramaBox]
+app-name = "DramaBox"
+patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Rushi"
+build-mode = "apk"
+pkg-name = "com.storymatrix.drama"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/storymatrix/dramabox-stream-drama-shorts/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.storymatrix.drama"
+
+[FreeReels]
+app-name = "FreeReels"
+patches-source = "epxec/android-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Epxec"
+build-mode = "apk"
+pkg-name = "com.freereels.app"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/skywork-ai-pte-ltd/freereels-dramas-and-series/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.freereels.app"
