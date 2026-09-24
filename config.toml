@@ -15,3 +15,23 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.zhiliaoapp.musically"
 enable-update-checks = true
+
+[Acrobat]
+app-name = "Adobe Acrobat"
+patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Rushi"
+build-mode = "apk"
+pkg-name = "com.adobe.reader"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/adobe-acrobat/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.adobe.reader"
+
+[AdobeScan]
+app-name = "Adobe Scan"
+patches-source = "rushiranpise/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Rushi"
+build-mode = "apk"
+pkg-name = "com.adobe.scan.android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/adobe-scan-pdf-scanner-ocr/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.adobe.scan.android"
