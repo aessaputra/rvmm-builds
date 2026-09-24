@@ -35,3 +35,13 @@ build-mode = "apk"
 pkg-name = "com.adobe.scan.android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/adobe-scan-pdf-scanner-ocr/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.adobe.scan.android"
+
+[Duolingo]
+app-name = "Duolingo"
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Hoodles"
+build-mode = "apk"
+pkg-name = "com.duolingo"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.duolingo"
