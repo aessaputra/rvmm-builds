@@ -9,15 +9,15 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: epxec/android-patches/patches-1.10.0.mpp  
-[Changelog](https://github.com/epxec/android-patches/releases/tag/v1.10.0)
+Patches: epxec/android-patches/patches-1.11.0.mpp  
+[Changelog](https://github.com/epxec/android-patches/releases/tag/v1.11.0)
 
 Patches: rushiranpise/morphe-patches/patches-1.22.0.mpp  
 [Changelog](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0)
 
 CLI: MorpheApp/morphe-cli/morphe-desktop-1.17.0-all.jar  
-Patches: SysAdminDoc/hushfeed/patches-0.58.0.mpp  
-[Changelog](https://github.com/SysAdminDoc/hushfeed/releases/tag/v0.58.0)  
+Patches: SysAdminDoc/hushfeed/patches-0.60.0.mpp  
+[Changelog](https://github.com/SysAdminDoc/hushfeed/releases/tag/v0.60.0)  
 
 Skipped:  
-Patches: hoo-dles/morphe-patches/patches-1.44.1.mpp    
+Patches: hoo-dles/morphe-patches/patches-1.44.1.mpp      
