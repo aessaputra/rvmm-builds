@@ -65,3 +65,33 @@ build-mode = "apk"
 pkg-name = "com.freereels.app"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/skywork-ai-pte-ltd/freereels-dramas-and-series/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.freereels.app"
+
+[Facebook]
+app-name = "Facebook"
+patches-source = "SysAdminDoc/Hushfacebook"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Hushfacebook"
+build-mode = "apk"
+pkg-name = "com.facebook.katana"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.facebook.katana"
+
+[Threads]
+app-name = "Threads"
+patches-source = "SysAdminDoc/HushThreads"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "HushThreads"
+build-mode = "apk"
+pkg-name = "com.instagram.barcelona"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/threads-an-instagram-app/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.barcelona"
+
+[Instagram]
+app-name = "Instagram"
+patches-source = "crimera/piko"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Piko"
+build-mode = "apk"
+pkg-name = "com.instagram.android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.android"
