@@ -43,6 +43,8 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Hoodles"
 build-mode = "apk"
 pkg-name = "com.duolingo"
+disable-microg = true
+included-patches = "'Disable dynamic app icon' 'Enable debug mode' 'Unlimited RampUp time'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.duolingo"
 

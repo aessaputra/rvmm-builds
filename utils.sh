@@ -747,6 +747,10 @@ build_rv() {
 
 	local microg_patch
 	microg_patch=$(grep "^Name: " <<<"$list_patches" | grep -i "gmscore\|microg" || :) microg_patch=${microg_patch#*: }
+	if [ "${args[disable_microg]-}" = true ] && [ -n "$microg_patch" ]; then
+		pr "Skipping microg patch for '${table}' (disable-microg = true)"
+		microg_patch=""
+	fi
 	if [ -n "$microg_patch" ] && [[ ${p_patcher_args[*]} =~ $microg_patch ]]; then
 		wpr "Cannot include/exclude microg patch as that's done by rvmm builder automatically."
 		p_patcher_args=("${p_patcher_args[@]//-[ei] ${microg_patch}/}")
