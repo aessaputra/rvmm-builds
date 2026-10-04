@@ -86,6 +86,15 @@ pkg-name = "com.instagram.barcelona"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/threads-an-instagram-app/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.barcelona"
 
+[CapCut]
+app-name = "CapCut"
+patches-source = "riky-dev/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Riky"
+build-mode = "apk"
+pkg-name = "com.lemon.lvoverseas"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/bytedance-pte-ltd/capcut/"
+
 [Instagram]
 app-name = "Instagram"
 patches-source = "crimera/piko"
