@@ -1,6 +1,7 @@
 Acrobat: 26.7.0.47169  
 AdobeScan: 26.08.01  
 DramaBox: 5.8.1  
+Facebook: 581.0.0.45.58  
 Threads: 449.0.0.54.82  
 TikTok: 47.1.4  
 
@@ -26,4 +27,4 @@ Skipped:
 Patches: riky-dev/morphe-patches/patches-2.2.0.mpp  
 Patches: hoo-dles/morphe-patches/patches-1.47.0.mpp  
 Patches: epxec/android-patches/patches-1.15.0.mpp  
-Patches: crimera/piko/patches-3.9.0.mpp    
+Patches: crimera/piko/patches-3.9.0.mpp      
