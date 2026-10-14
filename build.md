@@ -1,6 +1,7 @@
 Acrobat: 26.7.0.47169  
 AdobeScan: 26.08.01  
 DramaBox: 5.8.1  
+Facebook: 582.0.0.50.54  
 TikTok: 47.1.4  
 
 Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
@@ -8,21 +9,23 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: rushiranpise/morphe-patches/patches-1.22.0.mpp  
-[Changelog](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0)
+Patches: riky-dev/morphe-patches/patches-2.3.0.mpp  
+[Changelog](https://github.com/riky-dev/morphe-patches/releases/tag/v2.3.0)
+
+Patches: rushiranpise/morphe-patches/patches-1.23.0.mpp  
+[Changelog](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0)
 
 CLI: MorpheApp/morphe-cli/morphe-desktop-1.18.1-all.jar  
-Patches: SysAdminDoc/Hushfacebook/patches-0.11.0.mpp  
-[Changelog](https://github.com/SysAdminDoc/Hushfacebook/releases/tag/v0.11.0)
+Patches: SysAdminDoc/Hushfacebook/patches-0.13.0.mpp  
+[Changelog](https://github.com/SysAdminDoc/Hushfacebook/releases/tag/v0.13.0)
 
-Patches: SysAdminDoc/hushfeed/patches-0.71.2.mpp  
-[Changelog](https://github.com/SysAdminDoc/hushfeed/releases/tag/v0.71.2)
+Patches: SysAdminDoc/hushfeed/patches-0.73.0.mpp  
+[Changelog](https://github.com/SysAdminDoc/hushfeed/releases/tag/v0.73.0)
 
-Patches: SysAdminDoc/HushThreads/patches-0.0.13.mpp  
-[Changelog](https://github.com/SysAdminDoc/HushThreads/releases/tag/v0.0.13)  
+Patches: SysAdminDoc/HushThreads/patches-0.0.14.mpp  
+[Changelog](https://github.com/SysAdminDoc/HushThreads/releases/tag/v0.0.14)  
 
 Skipped:  
-Patches: riky-dev/morphe-patches/patches-2.2.0.mpp  
 Patches: hoo-dles/morphe-patches/patches-1.47.0.mpp  
 Patches: epxec/android-patches/patches-1.15.0.mpp    
-Patches: crimera/piko/patches-3.10.0.mpp        
+Patches: crimera/piko/patches-3.10.0.mpp          
