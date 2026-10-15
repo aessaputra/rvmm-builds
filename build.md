@@ -16,8 +16,8 @@ CLI: MorpheApp/morphe-cli/morphe-desktop-1.18.1-all.jar
 Patches: SysAdminDoc/Hushfacebook/patches-0.13.0.mpp  
 [Changelog](https://github.com/SysAdminDoc/Hushfacebook/releases/tag/v0.13.0)
 
-Patches: SysAdminDoc/hushfeed/patches-0.73.0.mpp  
-[Changelog](https://github.com/SysAdminDoc/hushfeed/releases/tag/v0.73.0)
+Patches: SysAdminDoc/hushfeed/patches-0.74.0.mpp  
+[Changelog](https://github.com/SysAdminDoc/hushfeed/releases/tag/v0.74.0)
 
 Patches: SysAdminDoc/HushThreads/patches-0.0.14.mpp  
 [Changelog](https://github.com/SysAdminDoc/HushThreads/releases/tag/v0.0.14)  
@@ -26,4 +26,4 @@ Skipped:
 Patches: riky-dev/morphe-patches/patches-2.3.0.mpp  
 Patches: hoo-dles/morphe-patches/patches-1.47.0.mpp  
 Patches: epxec/android-patches/patches-1.15.0.mpp    
-Patches: crimera/piko/patches-3.10.0.mpp            
+Patches: crimera/piko/patches-3.10.0.mpp              
