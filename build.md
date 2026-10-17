@@ -27,4 +27,4 @@ Skipped:
 Patches: riky-dev/morphe-patches/patches-2.3.0.mpp  
 Patches: hoo-dles/morphe-patches/patches-1.47.0.mpp  
 Patches: epxec/android-patches/patches-1.15.0.mpp    
-Patches: crimera/piko/patches-3.10.0.mpp                    
+Patches: crimera/piko/patches-3.10.0.mpp                      
