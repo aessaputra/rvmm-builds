@@ -214,7 +214,10 @@ config_update() {
 				local name_ext="${last_patches##*.}"
 				last_patches="patches-${tag_name#v}.${name_ext}"
 
-				if ! OP=$(grep -m1 "^Patches: ${PATCHES_SRC}/${last_patches}" build.md); then
+				# Match on the version prefix only: the asset-name derivation above can pick an
+				# unrelated file (release with SHA256SUMS.txt etc.), while the line recorded in
+				# build.md always uses patches-<tag>.<ext>.
+				if ! OP=$(grep -m1 "^Patches: ${PATCHES_SRC}/patches-${tag_name#v}\." build.md); then
 					sources["$PATCHES_SRC/$PATCHES_VER"]=1
 					prcfg=true
 					upped+=("$table_name")
