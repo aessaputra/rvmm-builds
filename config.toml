@@ -88,12 +88,13 @@ archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.barcelo
 
 [CapCut]
 app-name = "CapCut"
-patches-source = "riky-dev/morphe-patches"
+patches-source = "kveld9/kveld-extra-morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Riky"
+rv-brand = "Kveld"
 build-mode = "apk"
 pkg-name = "com.lemon.lvoverseas"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/bytedance-pte-ltd/capcut/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.lemon.lvoverseas"
 
 [Instagram]
 app-name = "Instagram"
