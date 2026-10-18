@@ -207,23 +207,16 @@ config_update() {
 				last_patches=$(gh_req "$rv_rel/tags/${PATCHES_VER}" -) || continue
 			fi
 			tag_name=$(jq -e -r '.tag_name' <<<"$last_patches") || abort "config_update error: No tag name"
-			if ! last_patches=$(jq -e -r '.assets[] | select(.name | (endswith("asc") or endswith("json")) | not) | .name' <<<"$last_patches"); then
-				abort "config_update error: '$last_patches'"
+			if ! jq -e '.assets | any(.name | (endswith("asc") or endswith("json")) | not)' <<<"$last_patches" >/dev/null; then
+				abort "config_update error: no usable asset in '$PATCHES_SRC' release"
 			fi
-			if [ "$last_patches" ]; then
-				local name_ext="${last_patches##*.}"
-				last_patches="patches-${tag_name#v}.${name_ext}"
-
-				# Match on the version prefix only: the asset-name derivation above can pick an
-				# unrelated file (release with SHA256SUMS.txt etc.), while the line recorded in
-				# build.md always uses patches-<tag>.<ext>.
-				if ! OP=$(grep -m1 "^Patches: ${PATCHES_SRC}/patches-${tag_name#v}\." build.md); then
-					sources["$PATCHES_SRC/$PATCHES_VER"]=1
-					prcfg=true
-					upped+=("$table_name")
-				else
-					echo "$OP" >>"$TEMP_DIR"/skipped
-				fi
+			# Match the version prefix only: the release's asset name may be an unrelated file (SHA256SUMS.txt).
+			if ! OP=$(grep -m1 "^Patches: ${PATCHES_SRC}/patches-${tag_name#v}\." build.md); then
+				sources["$PATCHES_SRC/$PATCHES_VER"]=1
+				prcfg=true
+				upped+=("$table_name")
+			else
+				echo "$OP" >>"$TEMP_DIR"/skipped
 			fi
 		fi
 	done
