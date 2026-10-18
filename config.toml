@@ -12,6 +12,7 @@ patches-source = "SysAdminDoc/hushfeed"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Hushfeed"
 build-mode = "apk"
+pkg-name = "com.zhiliaoapp.musically"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.zhiliaoapp.musically"
 
