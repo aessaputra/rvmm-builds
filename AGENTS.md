@@ -175,8 +175,9 @@ There is no unit test suite. Available verification:
 - Stock APKs from third-party sources (personal archive, APKMirror, APKPure)
   must be treated as untrusted. Patching and re-signing are the defense; never
   skip `check_sig` for a listed package.
-- CI secrets: `GITHUB_TOKEN` (built in), `TG_TOKEN` (optional, notifications).
-  Never write tokens into committed files.
+- CI secrets: `GITHUB_TOKEN` (built in), `TG_TOKEN` + `TG_CHAT` (optional,
+  Telegram notification: bot token and destination chat). Never write tokens
+  or chat ids into committed files.
 
 ## Troubleshooting
 
