@@ -45,8 +45,19 @@ jobs:
           echo "NEXT_VER_CODE=$((TAG + 1))" >> $GITHUB_OUTPUT
 
       - name: Build modules/APKs
-        run: if [ -f "config.json" ]; then ./build.sh config.json; else ./build.sh config.toml; fi
+        run: |
+          python3 check-telegram-config.py
+          if [ -f config.json ]; then
+            cp config.json config-input.tmp
+          else
+            ./bin/toml/tq-x86_64 --output json --file config.toml . > config-input.tmp
+          fi
+          python3 prepare-telegram-config.py < config-input.tmp
+          rm config-input.tmp
+          ./build.sh config.json
         env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: $GITHUB_REPOSITORY
           NEXT_VER_CODE: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}

@@ -112,6 +112,7 @@ app-name = "Telegram"
 patches-source = "SysAdminDoc/HushTelegram"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "HushTelegram"
+included-patches = '"Use registered Telegram API credentials"'
 build-mode = "apk"
 pkg-name = "org.telegram.messenger"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
