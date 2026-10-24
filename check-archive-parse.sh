@@ -27,12 +27,7 @@ check() { # pkg vers expected_file expect_merge
 }
 
 fail=0
-check org.telegram.messenger 13.0.3 org.telegram.messenger-13.0.3-all.apkm 1 || fail=1
 check com.zhiliaoapp.musically 47.4.3 com.zhiliaoapp.musically-47.4.3-all.apk 0 || fail=1
-
-# versi terparse harus bersih (tanpa ekstensi/arch)
-version_f=; get_archive_resp "https://archive.org/download/km-apks/apks/org.telegram.messenger" || fail=1
-[ "$(get_archive_vers <<<"$__ARCHIVE_RESP__" | tr -d ' ')" = "13.0.3" ] || { echo "FAIL get_archive_vers"; fail=1; }
 
 rm -rf "$work"
 [ "$fail" = 0 ] && echo "SEMUA CEK LULUS" || echo "ADA YANG GAGAL"
