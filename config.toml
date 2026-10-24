@@ -107,13 +107,3 @@ pkg-name = "com.instagram.android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.android"
 
-[Telegram]
-app-name = "Telegram"
-patches-source = "SysAdminDoc/HushTelegram"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "HushTelegram"
-included-patches = '"Use registered Telegram API credentials"'
-build-mode = "apk"
-pkg-name = "org.telegram.messenger"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
-archive-dlurl = "https://archive.org/download/km-apks/apks/org.telegram.messenger"
