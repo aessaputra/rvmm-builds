@@ -7,13 +7,13 @@ from assumptions.
 ## Project Overview
 
 Personal fork of [`j-hc/revanced-magisk-module`](https://github.com/j-hc/revanced-magisk-module)
-(`aessaputra/rvmm-builds`) that builds ReVanced/Morphe APKs for 11 Android apps
+(`aessaputra/rvmm-builds`) that builds ReVanced/Morphe APKs for 12 Android apps
 and publishes the results to GitHub Releases.
 
 The pipeline:
 
 ```
-config.toml (11 app tables)
+config.toml (12 app tables)
   -> build.sh             read config, loop over tables
   -> utils.sh             fetch stock APK, fetch patch bundle + CLI, patch, align, sign
   -> build/               <app>-<brand>-v<version>-<arch>.apk + module zips

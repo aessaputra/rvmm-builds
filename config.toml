@@ -117,3 +117,14 @@ pkg-name = "com.instagram.android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.android"
 
+[Tantan]
+app-name = "Tantan"
+patches-source = "JonnyVR1/morph-patches"
+patches-version = "v0.0.1-dev2"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "JonnyVR1"
+build-mode = "apk"
+pkg-name = "com.tantantribe.tribe"
+version = "7.3.6"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.tantantribe.tribe"
+
