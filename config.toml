@@ -120,6 +120,8 @@ archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.android
 [Tantan]
 app-name = "Tantan"
 patches-source = "JonnyVR1/morph-patches"
+# upstream only publishes prereleases, so the default "latest" resolves to 404
+patches-version = "v0.0.1-dev2"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "JonnyVR1"
 build-mode = "apk"
