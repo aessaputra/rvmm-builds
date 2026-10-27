@@ -46,13 +46,11 @@ jobs:
 
       - name: Build modules/APKs
         run: |
-          if [ -f config.json ]; then
-            cp config.json config-input.tmp
+          if [ -f "config.json" ]; then
+            ./build.sh config.json
           else
-            ./bin/toml/tq-x86_64 --output json --file config.toml . > config-input.tmp
+            ./build.sh config.toml
           fi
-          rm config-input.tmp
-          ./build.sh config.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: $GITHUB_REPOSITORY
