@@ -27,7 +27,8 @@ check() { # pkg vers expected_file expect_merge
 }
 
 fail=0
-check com.zhiliaoapp.musically 47.4.3 com.zhiliaoapp.musically-47.4.3-all.apk 0 || fail=1
+check com.zhiliaoapp.musically 47.6.3 com.zhiliaoapp.musically-47.6.3-all.apk 0 || fail=1
+check com.ss.android.ttmd.video 47.5.3 com.ss.android.ttmd.video-47.5.3-all.apkm 1 || fail=1
 
 rm -rf "$work"
 [ "$fail" = 0 ] && echo "SEMUA CEK LULUS" || echo "ADA YANG GAGAL"

@@ -69,9 +69,9 @@ archive-dlurl = "https://archive.org/download/km-apks/apks/com.freereels.app"
 
 [PineDrama]
 app-name = "PineDrama"
-patches-source = "SysAdminDoc/hushfeed"
+patches-source = "SysAdminDoc/HushPine"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Hushfeed"
+rv-brand = "HushPine"
 build-mode = "apk"
 pkg-name = "com.ss.android.ttmd.video"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/pinedrama-short-dramas/"
