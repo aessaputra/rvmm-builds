@@ -28,9 +28,9 @@ archive-dlurl = "https://archive.org/download/km-apks/apks/com.adobe.reader"
 
 [AdobeScan]
 app-name = "Adobe Scan"
-patches-source = "rushiranpise/morphe-patches"
+patches-source = "ihatenodejs/aidans-patches"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Rushi"
+rv-brand = "Aidan"
 build-mode = "apk"
 pkg-name = "com.adobe.scan.android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/adobe-scan-pdf-scanner-ocr/"
@@ -40,32 +40,21 @@ archive-dlurl = "https://archive.org/download/km-apks/apks/com.adobe.scan.androi
 app-name = "Duolingo"
 patches-source = "hxreborn/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Hoodles"
+rv-brand = "Hxreborn"
 build-mode = "apk"
 pkg-name = "com.duolingo"
-disable-microg = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.duolingo"
 
 [DramaBox]
 app-name = "DramaBox"
-patches-source = "rushiranpise/morphe-patches"
+patches-source = "mich111discord/MightyMichs-Patches"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Rushi"
+rv-brand = "MightyMich"
 build-mode = "apk"
 pkg-name = "com.storymatrix.drama"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/storymatrix/dramabox-stream-drama-shorts/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.storymatrix.drama"
-
-[FreeReels]
-app-name = "FreeReels"
-patches-source = "epxec/android-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Epxec"
-build-mode = "apk"
-pkg-name = "com.freereels.app"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/skywork-ai-pte-ltd/freereels-dramas-and-series/"
-archive-dlurl = "https://archive.org/download/km-apks/apks/com.freereels.app"
 
 [PineDrama]
 app-name = "PineDrama"
@@ -99,9 +88,9 @@ archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.barcelo
 
 [CapCut]
 app-name = "CapCut"
-patches-source = "kveld9/kveld-extra-morphe-patches"
+patches-source = "durgesh0505/chiggi_morphe_patches"
 cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Kveld"
+rv-brand = "Chiggi"
 build-mode = "apk"
 pkg-name = "com.lemon.lvoverseas"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/bytedance-pte-ltd/capcut/"
