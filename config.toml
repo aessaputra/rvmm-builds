@@ -38,7 +38,7 @@ archive-dlurl = "https://archive.org/download/km-apks/apks/com.adobe.scan.androi
 
 [Duolingo]
 app-name = "Duolingo"
-patches-source = "hoo-dles/morphe-patches"
+patches-source = "hxreborn/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Hoodles"
 build-mode = "apk"
