@@ -1,12 +1,12 @@
-TuyaSmart: 7.13.3  
+GoogleMaps: 26.44.06.1006895251  
 
 Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: amfakh/fakh-patches/patches-2.16.0.mpp  
-[Changelog](https://github.com/amfakh/fakh-patches/releases/tag/v2.16.0)
+Patches: bearinmindcat/morphe-patches/patches-2.10.0.mpp  
+[Changelog](https://github.com/bearinmindcat/morphe-patches/releases/tag/v2.10.0)
 
 CLI: MorpheApp/morphe-cli/morphe-desktop-2.4.0-all.jar    
 
@@ -21,3 +21,4 @@ Patches: crimera/piko/patches-3.11.1.mpp
 Patches: SysAdminDoc/HushPine/patches-0.3.0.mpp  
 Patches: SysAdminDoc/HushThreads/patches-0.0.18.mpp        
 Patches: SysAdminDoc/hushfeed/patches-0.85.0.mpp    
+Patches: amfakh/fakh-patches/patches-2.16.0.mpp    
