@@ -106,3 +106,13 @@ pkg-name = "com.instagram.android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram/"
 archive-dlurl = "https://archive.org/download/km-apks/apks/com.instagram.android"
 
+[TuyaSmart]
+app-name = "Tuya Smart"
+patches-source = "amfakh/fakh-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Fakh"
+build-mode = "apk"
+pkg-name = "com.tuya.smart"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tuya-inc/tuya-smart/"
+archive-dlurl = "https://archive.org/download/km-apks/apks/com.tuya.smart"
+
